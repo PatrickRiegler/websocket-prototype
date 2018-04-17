@@ -2,12 +2,13 @@
   "name": "websocket-prototype",
   "version": "1.0.0",
   "description": "",
-  "main": "chat-frontend.js",
+  "main": "chat-server.js",
   "dependencies": {
     "websocket": "^1.0.25"
   },
   "devDependencies": {},
   "scripts": {
+    "start": "node chat-server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
