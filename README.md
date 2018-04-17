@@ -6,9 +6,9 @@
 docker build -t websocket-demo .
 
 ## run docker image
-docker stop websocked-demo-app
-docker rm -vf websocked-demo-app
-docker run -d -p 1337:1337 --name websocked-demo-app websocket-demo
+docker stop websocket-demo-app
+docker rm -vf websocket-demo-app
+docker run -d -p 1337:1337 --name websocket-demo-app websocket-demo
 
 
 ## load html page into browser
